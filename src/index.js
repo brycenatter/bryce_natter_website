@@ -3,11 +3,18 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import 'bootstrap/dist/css/bootstrap.css';
+import TimeLine from './components/timeline';
+import About from './components/about';
+import GitHub from './components/github';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <GitHub></GitHub>
+    <About></About>
+    <TimeLine></TimeLine>
+
   </React.StrictMode>
 );
 
