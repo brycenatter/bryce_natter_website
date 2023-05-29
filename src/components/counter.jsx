@@ -7,7 +7,7 @@ class Counter extends Component {
     constructor() {
         super();
         this.handleInc = this.handleInc.bind(this);
-      } 
+    } 
 
     handleInc(){
         this.setState( {count : this.state.count + 1});

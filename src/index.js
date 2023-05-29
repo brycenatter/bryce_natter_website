@@ -7,11 +7,12 @@ import 'bootstrap/dist/css/bootstrap.css';
 import TimeLine from './components/timeline';
 import About from './components/about';
 import GitHub from './components/github';
+import './css/custom.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <GitHub></GitHub>
+    <GitHub language={'Java'}></GitHub>
     <About></About>
     <TimeLine></TimeLine>
 
