@@ -7,14 +7,17 @@ import 'bootstrap/dist/css/bootstrap.css';
 import TimeLine from './components/timeline';
 import About from './components/about';
 import GitHub from './components/github';
+import GithubGroup from './components/githubGroup';
 import './css/custom.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <GithubGroup></GithubGroup>
     <GitHub title={'moreligma'} repoUrl={'https://github.com/brycenatter/wordleGamePython'} text={'ligma af'}language={'Java'}></GitHub>
     <About></About>
     <TimeLine></TimeLine>
+
 
   </React.StrictMode>
 );
