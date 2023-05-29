@@ -1,0 +1,22 @@
+.githubLink{
+    color: #0969DA;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.githubLink:hover{
+    color: #0969DA;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.githubText{
+    color: #656D76;
+    font-size: 12px;
+}
+.githubLanguage{
+    color: #656D76;
+    font-size: 12px;
+}

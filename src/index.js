@@ -12,7 +12,7 @@ import './css/custom.css';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <GitHub language={'Java'}></GitHub>
+    <GitHub title={'moreligma'} repoUrl={'https://github.com/brycenatter/wordleGamePython'} text={'ligma af'}language={'Java'}></GitHub>
     <About></About>
     <TimeLine></TimeLine>
 

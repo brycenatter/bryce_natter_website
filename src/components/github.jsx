@@ -5,7 +5,7 @@ class GitHub extends Component {
     state = { 
         title: this.props.title,
         text: this.props.text,
-        imageUrl: this.props.imageUrl,
+        repoUrl: this.props.repoUrl,
         language: this.props.language,
     };
 
@@ -37,11 +37,11 @@ class GitHub extends Component {
                         
                     </div>
                     <div className='col-auto gx-0'>
-                        <a href="#" >Primary link</a>
+                        <a href={this.state.repoUrl} className='githubLink'>{this.state.title}</a>
                     </div>
                 </div>
                 <div className='row'>
-                    <div className='col-auto'>Adding functionality to Umich lecture recordings through a Chrome extension</div>
+                    <div className='col-auto githubText'>{this.state.text}</div>
                 </div>
                 <div className='row mb-2 gx-0'>
                     <div className='col-auto gx-0 me-2'>
@@ -50,7 +50,7 @@ class GitHub extends Component {
                         </svg>
                         
                     </div>
-                    <div className='col'>{this.state.language}</div>
+                    <div className='col m-auto githubLanguage'>{this.state.language}</div>
                 </div>
                 
             </div>
