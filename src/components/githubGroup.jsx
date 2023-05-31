@@ -55,19 +55,19 @@ class GithubGroup extends Component {
         //     </div>
         // </div>
 
-        <div className='m-2'>
+        <div className='m-2 container-flex'>
         {repos.length > 0 ? (
             <div>
-            <div className='row gx-1 m-1'>
+            <div className='row gx-1 m-1 '>
                 <div className='col gx-0 m-1 '>
-                <GitHub
-                    title={repos[0].name}
-                    repoUrl={repos[0].html_url}
-                    text={repos[0].description}
-                    language={repos[0].language}
-                ></GitHub>
+                    <GitHub
+                        title={repos[0].name}
+                        repoUrl={repos[0].html_url}
+                        text={repos[0].description}
+                        language={repos[0].language}
+                    ></GitHub>
                 </div>
-                <div className='col gx-0 m-1'>
+                <div className='col gx-0 m-1 '>
                 <GitHub
                     title={repos[1].name}
                     repoUrl={repos[1].html_url}

@@ -9,10 +9,23 @@ import About from './components/about';
 import GitHub from './components/github';
 import GithubGroup from './components/githubGroup';
 import './css/custom.css';
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Link
+} from 'react-router-dom';
+import Publish from './publish';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <Router>
+            <Routes>
+                <Route path='/publish' element={<Publish />} />
+            </Routes>
+    </Router>
+
     <GithubGroup></GithubGroup>
     <GitHub title={'moreligma'} repoUrl={'https://github.com/brycenatter/wordleGamePython'} text={'ligma af'}language={'Java'}></GitHub>
     <About></About>

@@ -37,7 +37,7 @@ class GitHub extends Component {
                         
                     </div>
                     <div className='col-auto gx-0'>
-                        <a href={this.state.repoUrl} className='githubLink'>{this.state.title}</a>
+                        <a href={this.state.repoUrl} target="_blank" className='githubLink'>{this.state.title}</a>
                     </div>
                 </div>
                 <div className='row'>
