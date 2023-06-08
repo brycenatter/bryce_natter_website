@@ -10,7 +10,7 @@ class Post extends Component {
     render() { 
         return (
             <div className="media">
-                 <img className="align-self-center mr-3" src={this.state.imageUrl} alt="Generic placeholder image"></img>
+                 {/* <img className="align-self-center mr-3" src={this.state.imageUrl} alt="Generic placeholder image"></img> */}
                 <div className="media-body">
                     <h5 className="mt-0">{this.state.title}</h5>
                         {this.state.text}

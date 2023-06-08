@@ -55,7 +55,7 @@ class GithubGroup extends Component {
         //     </div>
         // </div>
 
-        <div className='m-2 container-flex'>
+        <div className='max-w-container-2'>
         {repos.length > 0 ? (
             <div>
             <div className='row gx-1 m-1 '>

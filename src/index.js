@@ -4,11 +4,8 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.css';
-import TimeLine from './components/timeline';
-import About from './components/about';
-import GitHub from './components/github';
-import GithubGroup from './components/githubGroup';
 import './css/custom.css';
+import Home from './home.js';
 import {
   BrowserRouter as Router,
   Routes,
@@ -22,14 +19,12 @@ root.render(
   <React.StrictMode>
     <Router>
             <Routes>
+                <Route path='/' element={<Home />} />
                 <Route path='/publish' element={<Publish />} />
             </Routes>
     </Router>
 
-    <GithubGroup></GithubGroup>
-    <GitHub title={'moreligma'} repoUrl={'https://github.com/brycenatter/wordleGamePython'} text={'ligma af'}language={'Java'}></GitHub>
-    <About></About>
-    <TimeLine></TimeLine>
+   
 
 
   </React.StrictMode>

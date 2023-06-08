@@ -20,4 +20,20 @@
     color: #656D76;
     font-size: 12px;
 }
+.max-w-container{
+    margin: auto;
 
+    border: 3px solid green;
+    padding: 10px;
+    max-width: 500px;
+}
+
+.max-w-container-2{
+    margin: auto;
+    padding: 10px;
+    max-width: 1000px;
+}
+
+.center-text{
+    text-align: center;
+}

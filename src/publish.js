@@ -1,12 +1,13 @@
 import React from "react";
+import PublisherBox from "./components/publisher_box";
  
 const Publish = () => {
     return (
         <div>
             <h1>
-                GeeksforGeeks is a Computer
-                Science portal for geeks.
+                CDN Publisher
             </h1>
+            <PublisherBox></PublisherBox>
         </div>
     );
 };
