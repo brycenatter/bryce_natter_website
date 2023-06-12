@@ -31,9 +31,71 @@
 .max-w-container-2{
     margin: auto;
     padding: 10px;
-    max-width: 1000px;
+    max-width: 700px;
 }
 
 .center-text{
     text-align: center;
 }
+
+.post-date{
+    font-size: 12px;
+    color: #656D76;
+}
+
+.bottomBar{
+    margin: auto;
+    padding: 10px;
+    max-width: 1000px;
+
+
+    background-color: #656D76;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.bottomBarLink{
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.bottomBarLink:hover{
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    text-decoration: underline;
+}
+
+.normImg{
+    width: 100%;
+}
+
+#instagramLink:hover{
+    color: #C13584;
+}
+
+#facebookLink:hover{
+    color: #4267B2;
+}
+
+
+#mastodonLink:hover{
+    color: #8c8dff;
+}
+
+#githubSocialLink:hover{
+    color: #6cc644
+}
+
+#stravaLink:hover{
+    color: #fc5200;
+}
+
+#linkedinLink:hover{
+    color: #0a66c2;
+}
+

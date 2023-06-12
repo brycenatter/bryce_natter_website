@@ -7,13 +7,63 @@ import GithubGroup from './components/githubGroup';
 const Home = () => {
     return (
         <React.Fragment>
-            <About></About>
-            <hr></hr>
-            <h2 className="max-w-container-2 center-text">GitHub</h2>
-            
-            <TimeLine></TimeLine>
-            <h2 className="max-w-container-2">GitHub</h2>
-            <GithubGroup></GithubGroup>
+            <div className="max-w-container-2">
+                <About></About>
+                <hr></hr>
+                <h2>About</h2>
+                <div className="max-w-container-2 row">
+                    <div className="col">
+                        Testing
+                    </div>
+                    <div className="col">
+                        <img className="normImg border border-0 rounded-5" src={require("./images/IMG_8983.jpg")} alt="Bryce on top of mountain"/>
+                    </div>
+
+                </div>
+                
+                <h2>Academic and Professional</h2>
+                <h4>School</h4>
+                <p></p>
+                <h4>Current Projects and GitHub</h4>
+                <p>I'm currently working on a project that deals with USA cycling results data. It has a React front end, with a back end written in Python. Once it's released, it will provide insights into your top competitors and other metrics that will allow for comparison of race-difficulty across many competitions in the US.
+                    
+                    If you'd like to see my past, public projects check out my <a target="_blank" id="githubSocialLink" href="https://github.com/brycenatter">GitHub</a>. Below are my four most recently-updated repos. You can even see the React source code for this very website!</p>
+                <GithubGroup></GithubGroup>
+
+
+                <h2>Updates</h2>
+                <TimeLine></TimeLine>
+
+                <div className="bottomBar text-center row ">
+                <div className="col">
+                <a target="_blank" href="https://www.instagram.com/brycenatter/" className="bottomBarLink" id="instagramLink">Instagram</a>
+                </div>
+                
+                <div className="col">
+                <a target="_blank" id="facebookLink" href="https://www.facebook.com/profile.php?id=100015233418071" className="bottomBarLink">Facebook</a>
+                </div>
+
+                <div className="col">
+                <a target="_blank" id="mastodonLink" href="https://mastodon.social/@Natter" className="bottomBarLink">Mastodon</a>
+                </div>
+
+                <div className="col">
+                <a target="_blank" id="githubSocialLink" href="https://github.com/brycenatter" className="bottomBarLink">GitHub</a>
+                </div>
+
+                <div className="col">
+                <a target="_blank" id="stravaLink" href="https://www.strava.com/athletes/23737779" className="bottomBarLink">Strava</a>
+                </div>
+
+                <div className="col">
+                <a target="_blank" id="linkedinLink" href=" https://www.linkedin.com/in/bryce-natter-4b5a76150/" className="bottomBarLink">LinkedIn</a>
+                </div>
+            </div>
+                
+            </div>
+
+
+
             
         </React.Fragment>
     );

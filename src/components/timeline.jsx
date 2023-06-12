@@ -24,7 +24,7 @@ class TimeLine extends Component {
     return (
       this.state.posts.map(post => (<div className='max-w-container-2'>
         
-        <Post key={post.id} title={post.title} text={post.content} />
+        <Post key={post.id} title={post.title} text={post.content} date={post.date_formatted}/>
         </div>
     
       ))

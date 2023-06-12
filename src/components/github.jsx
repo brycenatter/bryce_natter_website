@@ -13,14 +13,8 @@ class GitHub extends Component {
         return Colors[this.state.language]['color'];
     }
 
-    // TODO: implment this differently when not building for looks
-    styles = {
-        
-        div_customs: {
-          backgroundColor: "#f1f1f1",
-          width: "500px",
-        },
-    };
+
+    
 
 
 
