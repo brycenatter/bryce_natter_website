@@ -22,13 +22,27 @@ const Home = () => {
                 </div>
                 
                 <h2>Academic and Professional</h2>
-                <h4>School</h4>
-                <p></p>
-                <h4>Current Projects and GitHub</h4>
-                <p>I'm currently working on a project that deals with USA cycling results data. It has a React front end, with a back end written in Python. Once it's released, it will provide insights into your top competitors and other metrics that will allow for comparison of race-difficulty across many competitions in the US.
+                <h5>2024 Summer Intership</h5>
+                <p>
+                    I am in the search for a 2024 summer internship in a CS-related field. If you know of any opportunities or know someone who might, please feel free to reach out.
+                </p>
+
+                <h5>School</h5>
+                <p>
+                    I am about to start my second year at the University of Michigan College of Engineering. Having come into University with transfer credit, I was able to complete the mandatory Data Structures and Algorithms (EECS 280 & 281) two semesters early. This has allowed me to start taking more specialized upper-level CS electives starting my first semester sophomore year.
+                </p>
+                <h5>Current Projects and GitHub</h5>
+                <p>
+                    I'm currently working on a project that deals with USA cycling results data. It has a React front end, with a back end written in Python and C++. Once it's released, it will provide insights into your top competitors and other metrics that will allow for comparison of race-difficulty across many competitions in the US.
                     
-                    If you'd like to see my past, public projects check out my <a target="_blank" id="githubSocialLink" href="https://github.com/brycenatter">GitHub</a>. Below are my four most recently-updated repos. You can even see the React source code for this very website!</p>
+                    If you'd like to see my past, public projects check out my <a target="_blank" id="githubSocialLink" href="https://github.com/brycenatter">GitHub</a>. Below are my four most recently-updated repos. You can even see the React source code for this very website!
+                </p>
                 <GithubGroup></GithubGroup>
+
+                <h2>Personal</h2>
+                <h5>Bissell-ABG Cycling</h5>
+                <p></p>
+
 
 
                 <h2>Updates</h2>
