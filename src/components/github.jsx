@@ -21,7 +21,7 @@ class GitHub extends Component {
 
     render() { 
         return (
-            <div className='border border-2 rounded'>
+            <div className='border border-2 rounded githubWhiteBG'>
                 <div className='m-3'>
                 <div className='row gx-0'>
                     <div className='col-auto gx-0  me-2'>
