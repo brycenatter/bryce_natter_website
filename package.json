@@ -1,5 +1,6 @@
 {
   "name": "bryce_natter_website",
+  "homepage": "https://natter.fun",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
