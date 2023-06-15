@@ -55,11 +55,11 @@ class GithubGroup extends Component {
         //     </div>
         // </div>
 
-        <div className='max-w-container-2'>
+        <div className='continer-flex max-w-container-2'>
         {repos.length > 0 ? (
             <div>
             <div className='row gx-1 m-1 '>
-                <div className='col gx-0 m-1 '>
+                <div className='col-sm gx-0 m-1 '>
                     <GitHub
                         title={repos[0].name}
                         repoUrl={repos[0].html_url}
@@ -67,7 +67,7 @@ class GithubGroup extends Component {
                         language={repos[0].language}
                     ></GitHub>
                 </div>
-                <div className='col gx-0 m-1 '>
+                <div className='col-sm gx-0 m-1 '>
                 <GitHub
                     title={repos[1].name}
                     repoUrl={repos[1].html_url}
@@ -77,7 +77,7 @@ class GithubGroup extends Component {
                 </div>
             </div>
             <div className='row gx-1 m-1'>
-                <div className='col gx-0 m-1'>
+                <div className='col-sm gx-0 m-1'>
                 <GitHub
                     title={repos[2].name}
                     repoUrl={repos[2].html_url}
@@ -85,7 +85,7 @@ class GithubGroup extends Component {
                     language={repos[2].language}
                 ></GitHub>
                 </div>
-                <div className='col gx-0 m-1'>
+                <div className='col-sm gx-0 m-1'>
                 <GitHub
                     title={repos[3].name}
                     repoUrl={repos[3].html_url}
